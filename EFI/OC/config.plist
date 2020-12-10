@@ -103,8 +103,7 @@
 			</dict>
 		</array>
 		<key>Patch</key>
-		<array>
-		</array>
+		<array/>
 		<key>Quirks</key>
 		<dict>
 			<key>FadtEnableReset</key>
@@ -184,10 +183,10 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>#PciRoot(0x0)/Pci(0x2,0x0)</key>
+			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>AwDImw==</data>
+				<data>BwCbPg==</data>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,2,0</string>
 				<key>device_type</key>
@@ -221,7 +220,7 @@
 				<key>model</key>
 				<string>Intel UHD Graphics 630</string>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+			<key>##PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
 				<data>AwDImw==</data>
@@ -467,8 +466,7 @@
 			</dict>
 		</array>
 		<key>Patch</key>
-		<array>
-		</array>
+		<array/>
 		<key>Quirks</key>
 		<dict>
 			<key>ExtendBTFeatureFlags</key>
@@ -521,8 +519,7 @@
 	<key>Misc</key>
 	<dict>
 		<key>BlessOverride</key>
-		<array>
-		</array>
+		<array/>
 		<key>Boot</key>
 		<dict>
 			<key>ConsoleAttributes</key>
@@ -536,7 +533,7 @@
 			<key>PickerAudioAssist</key>
 			<false/>
 			<key>PickerMode</key>
-			<string>Builtin</string>
+			<string>External</string>
 			<key>PollAppleHotKeys</key>
 			<false/>
 			<key>ShowPicker</key>
@@ -613,15 +610,14 @@
 			<key>ScanPolicy</key>
 			<integer>0</integer>
 			<key>#ScanPolicy</key>
-			<real>17760515.0</real>
+			<real>17760515</real>
 			<key>SecureBootModel</key>
 			<string>j185f</string>
 			<key>Vault</key>
 			<string>Optional</string>
 		</dict>
 		<key>Tools</key>
-		<array>
-		</array>
+		<array/>
 	</dict>
 	<key>NVRAM</key>
 	<dict>
@@ -646,7 +642,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>agdpmod=pikera shikigva=80 alcid=xxx</string>
+				<string>agdpmod=pikera shikigva=80</string>
 				<key>run-efi-updater</key>
 				<string>No</string>
 				<key>csr-active-config</key>
@@ -717,7 +713,7 @@
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>MLB</key>
-			<string>C02045500GU0000FB</string>
+			<string>C02014300GU0000JA</string>
 			<key>ROM</key>
 			<data></data>
 			<key>ProcessorType</key>
@@ -727,9 +723,9 @@
 			<key>SystemProductName</key>
 			<string>iMac20,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02DN00T046M</string>
+			<string>C02CJ3YZ046M</string>
 			<key>SystemUUID</key>
-			<string>65412077-E7F8-40B5-B8C7-AB1D57D982E1</string>
+			<string>11B870CC-A001-4F02-9C3E-1A77D4016121</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -779,6 +775,7 @@
 		<key>Drivers</key>
 		<array>
 			<string>HFSPlus.efi</string>
+			<string>#AudioDxe.efi</string>
 			<string>OpenCanopy.efi</string>
 			<string>OpenRuntime.efi</string>
 		</array>

@@ -496,11 +496,11 @@
 		<key>Debug</key>
 		<dict>
 			<key>AppleDebug</key>
-			<false/>
+			<true/>
 			<key>ApplePanic</key>
-			<false/>
+			<true/>
 			<key>DisableWatchDog</key>
-			<false/>
+			<true/>
 			<key>DisplayDelay</key>
 			<integer>0</integer>
 			<key>DisplayLevel</key>
@@ -663,7 +663,7 @@
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>MLB</key>
-			<string>C02842108CDJG36CB</string>
+			<string>C02024902GUJG36A8</string>
 			<key>ROM</key>
 			<data></data>
 			<key>ProcessorType</key>
@@ -673,9 +673,9 @@
 			<key>SystemProductName</key>
 			<string>iMacPro1,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02XK00WHX87</string>
+			<string>C02CVGZYHX87</string>
 			<key>SystemUUID</key>
-			<string>A5A3BEA1-BF93-44EE-8022-4A44BEB6CCDC</string>
+			<string>B296F5EA-8C15-419A-8C84-735CF27B8B97</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>

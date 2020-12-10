@@ -546,11 +546,11 @@
 		<key>Debug</key>
 		<dict>
 			<key>AppleDebug</key>
-			<false/>
+			<true/>
 			<key>ApplePanic</key>
-			<false/>
+			<true/>
 			<key>DisableWatchDog</key>
-			<false/>
+			<true/>
 			<key>DisplayDelay</key>
 			<integer>0</integer>
 			<key>DisplayLevel</key>
@@ -713,7 +713,7 @@
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>MLB</key>
-			<string>C02045500GU0000FB</string>
+			<string>C02014300GU0000JA</string>
 			<key>ROM</key>
 			<data></data>
 			<key>ProcessorType</key>
@@ -723,9 +723,9 @@
 			<key>SystemProductName</key>
 			<string>iMac20,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02DN00T046M</string>
+			<string>C02CJ3YZ046M</string>
 			<key>SystemUUID</key>
-			<string>65412077-E7F8-40B5-B8C7-AB1D57D982E1</string>
+			<string>11B870CC-A001-4F02-9C3E-1A77D4016121</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
